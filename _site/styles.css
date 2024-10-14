@@ -1,0 +1,36 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+  }
+
+  .footer a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer a:hover {
+    background-color: black;
+    color: #204eb6;
+  }
+
+  .footer-items {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-items p {
+    background-color: black;
+    margin: 0;
+  }
+
+  .nav-footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
