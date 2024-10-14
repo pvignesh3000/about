@@ -1,44 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Google</title>
-    <link rel="shortcut icon" href="Google_favicon.jpg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigneshwar Perumal - Data Scientist Portfolio</title>
     <link rel="stylesheet" href="style.css">
-  </head>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<body>
-		<header>
-		<nav>
-		  <ul>
-		    <li><a href="image_search.html">Image Search</a></li>
-		    <li><a href="advanced_search.html">Advanced Search</a></li>
-		  </ul>
-		</nav>
-		</header>
-	  	<div>
-	    <img src="search.png">
-	    <form action="https://google.com/search">
-		    <input type="text" name="q" class="box" placeholder="Type here to search...">
-		    <br>
-		    <div id="divLeft">
-		        <input type="submit" name="btnK" value="Google Search" class="button">
-		    </div>
-		    <div id="divRight">
-		        <input type="submit" name="btnI" value="I am Feeling Lucky" class="button">
-		    </div>
-		</form>
-	  	<footer>
-		    <ul class="left">
-		      <li><a href="https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertisting</a></li>
-		      <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
-		      <li><a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
-		      <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
-		    </ul>
-		    <ul class="right">
-		      <li><a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a></li>
-		      <li><a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a></li>
-		      <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
-		    </ul>
-		</footer>
-	</body>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Vigneshwar Perumal</h1>
+            <p>Innovative Data Scientist | Expert in Data Insights & Business Strategy</p>
+            <a href="Vigneshwar_Perumal_2024_Resume.pdf" class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a data analytics expert with 5+ years of experience working with companies like Pinterest, EDG, and Accenture. My expertise lies in leveraging data science to uncover actionable insights, optimizing business strategies, and crafting compelling data-driven narratives.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="job">
+            <h3>Innovations Analyst – Pinterest</h3>
+            <span>March 2023 – Present | New York City, NY</span>
+            <ul>
+                <li>Led data science initiatives to drive advertiser success using Python, SparkSQL, and Tableau.</li>
+                <li>Designed custom data insights for key industries including retail, tech, and finance.</li>
+                <li>Translated insights into narratives to optimize media campaigns for advertisers.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Senior Data Analyst – EDG</h3>
+            <span>Nov 2020 – Jan 2023 | Edison, NJ</span>
+            <ul>
+                <li>Implemented machine learning models to optimize sales across regions and products.</li>
+                <li>Built automated data pipelines using Dataiku for fast, data-informed decisions.</li>
+                <li>Increased sales by 6.5% through advanced analytics and visualization tools.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Digital Consulting Analyst – Accenture</h3>
+            <span>Sept 2019 – Oct 2020 | Houston, TX</span>
+            <ul>
+                <li>Provided clients with data insights using SQL, Python, and data visualization platforms.</li>
+                <li>Collaborated with data scientists to develop advanced analytical solutions.</li>
+                <li>Supported cross-functional teams with data-driven recommendations.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <ul>
+            <li><strong>Campaign Optimization on Pinterest:</strong> Created insights using platform data to enhance campaign performance.</li>
+            <li><strong>Sales Forecasting with Machine Learning:</strong> Developed predictive models to optimize EDG’s sales strategies.</li>
+            <li><strong>Data Integration for Consulting Solutions:</strong> Led data integration efforts for Accenture’s consulting clients.</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Advanced SQL – HackerRank Certified</li>
+            <li>Python Programming – HackerRank Certified</li>
+            <li>ML Core Designer – Dataiku Certified</li>
+            <li>Google Analytics for Beginners</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:pvignesh3000@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vigneshwar Perumal. All rights reserved.</p>
+    </footer>
+</body>
 </html>
